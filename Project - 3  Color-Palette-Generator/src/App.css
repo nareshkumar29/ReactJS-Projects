@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  margin-top: 2rem;
+
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  height: 100vh;
+}
+
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+h3{
+  color: #05386f;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
