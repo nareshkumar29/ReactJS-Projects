@@ -1,0 +1,12 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(47, 97, 80);
+}
+
+h1 {
+  text-align: center;
+  color: beige;
+}
